@@ -58,3 +58,4 @@ buck-out/
 
 # Firebase project credentials
 ios/ProjectHemeraAdmin/GoogleService-Info.plist
+android/app/google-services.json
