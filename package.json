@@ -7,7 +7,9 @@
     "test": "jest",
     "ios": "react-native run-ios",
     "android": "react-native run-android",
-    "xcode": "open ios/ProjectHemeraAdmin.xcworkspace"
+    "xcode": "open ios/ProjectHemeraAdmin.xcworkspace",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix"
   },
   "dependencies": {
     "react": "16.4.1",
