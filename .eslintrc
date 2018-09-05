@@ -63,7 +63,14 @@
         "forbid": []
       }
     ],
-    "react/prop-types": 2,
+    "react/prop-types": [
+      "error",
+      {
+        "ignore": [
+          "navigation"
+        ]
+      }
+    ],
     "react/jsx-no-bind": 2,
     "react/jsx-no-duplicate-props": 2,
     "react/jsx-uses-vars": 2,
