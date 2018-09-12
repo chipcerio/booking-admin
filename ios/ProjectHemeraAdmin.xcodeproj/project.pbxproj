@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -34,19 +35,19 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* ProjectHemeraAdminTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ProjectHemeraAdminTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		3B0F32D5F55D440699E96B88 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AFC86E326BE499A899C77D8 /* AppCenter-Config.plist */; };
 		5446B898A3B93D9537CACF32 /* libPods-ProjectHemeraAdmin-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AAC35583D87FF10A6871BB /* libPods-ProjectHemeraAdmin-tvOSTests.a */; };
 		5C7F7F316F34542FF4905A45 /* libPods-ProjectHemeraAdmin-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C21C867D29254DF1BBD189AF /* libPods-ProjectHemeraAdmin-tvOS.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		6746FCFE213DF53E00CFEA68 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6746FCD8213DF53E00CFEA68 /* GoogleService-Info.plist */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		A233366469C69C2B4E003B78 /* libPods-ProjectHemeraAdminTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCF8172B4D878CE69321609 /* libPods-ProjectHemeraAdminTests.a */; };
-		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		DFF2CA974FBE4830BD5EB8D6 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D552645671FD497C9D33A4D5 /* libRNFirebase.a */; };
-		FACCA562CC12D46CC72FD5BB /* libPods-ProjectHemeraAdmin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 300FC88F299D67BEDF7FB704 /* libPods-ProjectHemeraAdmin.a */; };
-		DAFF5990B9454DDBBEEC9A23 /* libAppCenterReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 567965F1DB3B4A278F509964 /* libAppCenterReactNative.a */; };
-		3B0F32D5F55D440699E96B88 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AFC86E326BE499A899C77D8 /* AppCenter-Config.plist */; };
 		9D6ECB351B5E48438DB9BC92 /* libAppCenterReactNativeAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46266BC68AFE40719594B119 /* libAppCenterReactNativeAnalytics.a */; };
 		9DB15422F76B492D8F1F6E9A /* libAppCenterReactNativeCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DA7A8EB90F45218D2EA1B9 /* libAppCenterReactNativeCrashes.a */; };
+		A233366469C69C2B4E003B78 /* libPods-ProjectHemeraAdminTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCF8172B4D878CE69321609 /* libPods-ProjectHemeraAdminTests.a */; };
+		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		DAFF5990B9454DDBBEEC9A23 /* libAppCenterReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 567965F1DB3B4A278F509964 /* libAppCenterReactNative.a */; };
+		DFF2CA974FBE4830BD5EB8D6 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D552645671FD497C9D33A4D5 /* libRNFirebase.a */; };
+		FACCA562CC12D46CC72FD5BB /* libPods-ProjectHemeraAdmin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 300FC88F299D67BEDF7FB704 /* libPods-ProjectHemeraAdmin.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -309,6 +310,27 @@
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RNFirebase;
 		};
+		67E34EEF2148C5CC00F873D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3905A889E8234E6A99E3ADFD /* AppCenterReactNative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C35AEC211EF91F9300931F0C;
+			remoteInfo = AppCenterReactNative;
+		};
+		67E34EF22148C5CC00F873D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49992FB4ED864A789B35D606 /* AppCenterReactNativeCrashes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5419C2701D824AA700DDF3A1;
+			remoteInfo = AppCenterReactNativeCrashes;
+		};
+		67E34EF72148C5CC00F873D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F55BE96280C4745B36DB6FA /* AppCenterReactNativeAnalytics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 548694001D8384E600E6685A;
+			remoteInfo = AppCenterReactNativeAnalytics;
+		};
 		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
@@ -357,8 +379,14 @@
 		2D02E4901E0B4A5D006451C7 /* ProjectHemeraAdmin-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProjectHemeraAdmin-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		300FC88F299D67BEDF7FB704 /* libPods-ProjectHemeraAdmin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectHemeraAdmin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3905A889E8234E6A99E3ADFD /* AppCenterReactNative.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNative.xcodeproj; path = ../node_modules/appcenter/ios/AppCenterReactNative.xcodeproj; sourceTree = "<group>"; };
+		3AFC86E326BE499A899C77D8 /* AppCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "ProjectHemeraAdmin/AppCenter-Config.plist"; sourceTree = "<group>"; };
 		4333678AD05A779CCA9A6F9E /* Pods-ProjectHemeraAdmin-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectHemeraAdmin-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectHemeraAdmin-tvOS/Pods-ProjectHemeraAdmin-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		46266BC68AFE40719594B119 /* libAppCenterReactNativeAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativeAnalytics.a; sourceTree = "<group>"; };
+		49992FB4ED864A789B35D606 /* AppCenterReactNativeCrashes.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeCrashes.xcodeproj; path = "../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes.xcodeproj"; sourceTree = "<group>"; };
+		4F55BE96280C4745B36DB6FA /* AppCenterReactNativeAnalytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeAnalytics.xcodeproj; path = "../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics.xcodeproj"; sourceTree = "<group>"; };
 		54121FAD0E43FA122519E27E /* Pods-ProjectHemeraAdmin-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectHemeraAdmin-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectHemeraAdmin-tvOS/Pods-ProjectHemeraAdmin-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		567965F1DB3B4A278F509964 /* libAppCenterReactNative.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNative.a; sourceTree = "<group>"; };
 		56C24A48D0C42783C310ACB0 /* Pods-ProjectHemeraAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectHemeraAdmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectHemeraAdmin/Pods-ProjectHemeraAdmin.release.xcconfig"; sourceTree = "<group>"; };
 		592C673A7969C9239890EB96 /* Pods-ProjectHemeraAdmin-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectHemeraAdmin-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectHemeraAdmin-tvOSTests/Pods-ProjectHemeraAdmin-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		5E4093C9D8C0453D94E5BB21 /* Pods-ProjectHemeraAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectHemeraAdmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectHemeraAdmin/Pods-ProjectHemeraAdmin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -369,18 +397,12 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		B1DA7A8EB90F45218D2EA1B9 /* libAppCenterReactNativeCrashes.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativeCrashes.a; sourceTree = "<group>"; };
 		BF215E1737DEF0DC073F1041 /* Pods-ProjectHemeraAdminTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectHemeraAdminTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectHemeraAdminTests/Pods-ProjectHemeraAdminTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C21C867D29254DF1BBD189AF /* libPods-ProjectHemeraAdmin-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectHemeraAdmin-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D552645671FD497C9D33A4D5 /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
 		D6AAC35583D87FF10A6871BB /* libPods-ProjectHemeraAdmin-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectHemeraAdmin-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD644D6B8DC79B2B0FB3A6C /* Pods-ProjectHemeraAdminTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectHemeraAdminTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectHemeraAdminTests/Pods-ProjectHemeraAdminTests.release.xcconfig"; sourceTree = "<group>"; };
-		3905A889E8234E6A99E3ADFD /* AppCenterReactNative.xcodeproj */ = {isa = PBXFileReference; name = "AppCenterReactNative.xcodeproj"; path = "../node_modules/appcenter/ios/AppCenterReactNative.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		567965F1DB3B4A278F509964 /* libAppCenterReactNative.a */ = {isa = PBXFileReference; name = "libAppCenterReactNative.a"; path = "libAppCenterReactNative.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		3AFC86E326BE499A899C77D8 /* AppCenter-Config.plist */ = {isa = PBXFileReference; name = "AppCenter-Config.plist"; path = "ProjectHemeraAdmin/AppCenter-Config.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
-		4F55BE96280C4745B36DB6FA /* AppCenterReactNativeAnalytics.xcodeproj */ = {isa = PBXFileReference; name = "AppCenterReactNativeAnalytics.xcodeproj"; path = "../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		46266BC68AFE40719594B119 /* libAppCenterReactNativeAnalytics.a */ = {isa = PBXFileReference; name = "libAppCenterReactNativeAnalytics.a"; path = "libAppCenterReactNativeAnalytics.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		49992FB4ED864A789B35D606 /* AppCenterReactNativeCrashes.xcodeproj */ = {isa = PBXFileReference; name = "AppCenterReactNativeCrashes.xcodeproj"; path = "../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		B1DA7A8EB90F45218D2EA1B9 /* libAppCenterReactNativeCrashes.a */ = {isa = PBXFileReference; name = "libAppCenterReactNativeCrashes.a"; path = "libAppCenterReactNativeCrashes.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -588,6 +610,9 @@
 			isa = PBXGroup;
 			children = (
 				D552645671FD497C9D33A4D5 /* libRNFirebase.a */,
+				567965F1DB3B4A278F509964 /* libAppCenterReactNative.a */,
+				46266BC68AFE40719594B119 /* libAppCenterReactNativeAnalytics.a */,
+				B1DA7A8EB90F45218D2EA1B9 /* libAppCenterReactNativeCrashes.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -596,6 +621,30 @@
 			isa = PBXGroup;
 			children = (
 				673BA6B6213DF6A400706189 /* libRNFirebase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67E34EEA2148C5CC00F873D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67E34EF02148C5CC00F873D0 /* libAppCenterReactNative.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67E34EEC2148C5CC00F873D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67E34EF32148C5CC00F873D0 /* libAppCenterReactNativeCrashes.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67E34EF42148C5CC00F873D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67E34EF82148C5CC00F873D0 /* libAppCenterReactNativeAnalytics.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -785,6 +834,9 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 25PSAK2QTC;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -808,6 +860,18 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 67E34EEA2148C5CC00F873D0 /* Products */;
+					ProjectRef = 3905A889E8234E6A99E3ADFD /* AppCenterReactNative.xcodeproj */;
+				},
+				{
+					ProductGroup = 67E34EF42148C5CC00F873D0 /* Products */;
+					ProjectRef = 4F55BE96280C4745B36DB6FA /* AppCenterReactNativeAnalytics.xcodeproj */;
+				},
+				{
+					ProductGroup = 67E34EEC2148C5CC00F873D0 /* Products */;
+					ProjectRef = 49992FB4ED864A789B35D606 /* AppCenterReactNativeCrashes.xcodeproj */;
+				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
@@ -1117,6 +1181,27 @@
 			remoteRef = 673BA6B5213DF6A400706189 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		67E34EF02148C5CC00F873D0 /* libAppCenterReactNative.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNative.a;
+			remoteRef = 67E34EEF2148C5CC00F873D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		67E34EF32148C5CC00F873D0 /* libAppCenterReactNativeCrashes.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNativeCrashes.a;
+			remoteRef = 67E34EF22148C5CC00F873D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		67E34EF82148C5CC00F873D0 /* libAppCenterReactNativeAnalytics.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNativeAnalytics.a;
+			remoteRef = 67E34EF72148C5CC00F873D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1416,6 +1501,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 25PSAK2QTC;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
@@ -1441,6 +1527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25PSAK2QTC;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
