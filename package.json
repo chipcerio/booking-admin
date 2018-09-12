@@ -12,6 +12,9 @@
     "lint:fix": "eslint src/ --fix"
   },
   "dependencies": {
+    "appcenter": "^1.8.1",
+    "appcenter-analytics": "^1.8.1",
+    "appcenter-crashes": "^1.8.1",
     "react": "16.4.1",
     "react-native": "0.56.0",
     "react-native-firebase": "^4.3.8",
@@ -35,7 +38,11 @@
     "react-test-renderer": "16.4.1"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "setupFiles": [
+      "<rootDir>/node_modules/appcenter-analytics/test/AppCenterAnalyticsMock.js",
+      "<rootDir>/node_modules/appcenter/test/AppCenterMock.js"
+    ]
   },
   "husky": {
     "hooks": {
